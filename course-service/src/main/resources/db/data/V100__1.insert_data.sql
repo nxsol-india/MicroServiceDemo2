@@ -1,0 +1,3 @@
+INSERT INTO `course` (`id`, `country_id`, `domestic_price`, `institute_name`, `international_price`, `name`) VALUES ('1', '1', '125', 'oxford', '145', 'Spring Boot');
+INSERT INTO `course` (`id`, `country_id`, `domestic_price`, `institute_name`, `international_price`, `name`) VALUES ('2', '2', '225', 'cambridge', '265', 'J2ee');
+INSERT INTO `course` (`id`, `country_id`, `domestic_price`, `institute_name`, `international_price`, `name`) VALUES ('3', '3', '175', 'pennsylvania', '200', 'PHP');
