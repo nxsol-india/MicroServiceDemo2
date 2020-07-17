@@ -32,7 +32,7 @@ public class CouserRestController {
 	
 	@PostMapping()
 	public ResponseEntity<?> create(@RequestBody Course course) {
-		if(null != course.getCountryId()) {
+		if(null == course.getCountryId()) {
 			return new ResponseEntity<>("Country not found", HttpStatus.BAD_REQUEST);
 		}
 		return new ResponseEntity<>(courseService.save(course), HttpStatus.OK);
