@@ -27,6 +27,7 @@ D] Please use service discovery for interservice communication
 E] No need for any Oauth implementation assume all APIs are open 
 
 API Details: 
+[Microservice2.postman_collection.json for post man]
 ------------
 
 A)course by courseid and userid :
