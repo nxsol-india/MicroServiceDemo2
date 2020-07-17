@@ -3,7 +3,8 @@ Technology :
 
 Spring Boot Microservice + Spring Data JPA + MySQL
 
-Run Application Following Orders With spring boot 
+Run Application Following Orders With spring boot
+
 1)discovery (eureka server)
 
 2)edge (gateway service)
